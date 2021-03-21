@@ -61,7 +61,8 @@
 │   ├── Lection8.pdf  
 │   └── Lection9.pdf  
 ├── Mathematics  
-│   ├── DifferentialAndIntegral  
+│   ├── DifferentialAndIntegral 
+│   │   ├── Справочное пособие.pdf  
 │   │   ├── Типовик_модуль 3.pdf  
 │   │   ├── 微积分学教程.第一卷.菲赫金哥尔茨.pdf  
 │   │   ├── 微积分学教程.第三卷.菲赫金哥尔茨.pdf  
@@ -76,7 +77,8 @@
 │       ├── Lecture7.pdf  
 │       ├── Lecture8.pdf  
 │       ├── book.pdf  
-│       └── exercise.pdf  
+│       ├── exercise.pdf  
+│       └── Аналит.геом и лин.алг_.pdf  
 ├── Programming  
 │   ├── C++  
 │   │   └── C++ Primer Plus 第6版 中文版.pdf  
