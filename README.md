@@ -1,6 +1,7 @@
-# 神经技术与编程
-将会持续更新[ITMO大学](https://cn.itmo.ru/cn/)软件工程专业神经技术与编程方向 (*Нейротехнологии и Программирование*)的课程资料
-![](https://en.wikipedia.org/wiki/ITMO_University#/media/File:ITMO_University_official_logo_horizontal.png)
+# 神经技术与编程专业课程
+将会持续更新[ITMO大学](https://cn.itmo.ru/cn/)软件工程专业神经技术与编程方向 (*[Нейротехнологии и Программирование](https://abit.itmo.ru/program/14552/#passport)*)的课程资料
+![](https://img.shields.io/badge/wechat-Spbgzh-green)      	![](https://img.shields.io/badge/mail-spbgzh%40niuitmo.ru-blue)
+
 ## 专业介绍
 该专业是软件工程与神经科学的交叉学科专业，
 是对具有开发和实施神经技术技能的程序员超出劳动力市场需求的回应。
@@ -20,4 +21,4 @@
  4. 数据库技术Oracle数据库，MySQL，MongoDB，Apache Derby，Berkeley DB等；
  5. 神经实验工具“Young Neurophysiologist-Engineer”，Open BCI，BioRadio人类生理学套件等。
 
- 
+
