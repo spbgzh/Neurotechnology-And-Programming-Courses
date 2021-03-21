@@ -31,7 +31,7 @@
 │   ├── 基础计算机的体系结构.pdf  
 │   └── 课程实验室工作指南计算机技术的基础.pdf  
 ├── BrainComputerInterface  
-│   ├── 神经科学的数学基础.pdf  
+│   ├── 神经科学的数学基础.pdf    
 │   ├── 脑机接口原理与实践.pdf  
 │   └── 脑机接口导论.pdf  
 ├── DiscreteMathematics  
