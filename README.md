@@ -1,5 +1,6 @@
 # 神经技术与编程专业课程
 将会持续更新[ITMO大学](https://cn.itmo.ru/cn/)软件工程专业神经技术与编程方向 (*[Нейротехнологии и Программирование](https://abit.itmo.ru/program/14552/#passport)*)的课程资料
+以及一些相关的中文资料
 
 ![](https://img.shields.io/badge/wechat-Spbgzh-green)      	![](https://img.shields.io/badge/mail-spbgzh%40niuitmo.ru-blue)
 
