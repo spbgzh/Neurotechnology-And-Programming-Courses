@@ -25,12 +25,12 @@
  5. 神经实验工具“Young Neurophysiologist-Engineer”，Open BCI，BioRadio人类生理学套件等。
 
 ## 仓库结构
-├── BasicsOfProfessionalActivity
-│   ├── 专业活动的基础(第一部分).pdf
-│   ├── 基础计算机的体系结构.pdf
-│   └── 课程实验室工作指南计算机技术的基础.pdf
-├── BrainComputerInterface
-│   ├── 脑机接口原理与实践.pdf
+├── BasicsOfProfessionalActivity  
+│   ├── 专业活动的基础(第一部分).pdf  
+│   ├── 基础计算机的体系结构.pdf  
+│   └── 课程实验室工作指南计算机技术的基础.pdf  
+├── BrainComputerInterface  
+│   ├── 脑机接口原理与实践.pdf  
 │   └── 脑机接口导论.pdf
 ├── DiscreteMathematics
 │   ├── FuzzySet
