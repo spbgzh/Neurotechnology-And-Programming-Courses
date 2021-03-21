@@ -24,4 +24,82 @@
  4. 数据库技术Oracle数据库，MySQL，MongoDB，Apache Derby，Berkeley DB等；
  5. 神经实验工具“Young Neurophysiologist-Engineer”，Open BCI，BioRadio人类生理学套件等。
 
-
+## 仓库挤结构
+.
+├── BasicsOfProfessionalActivity
+│   ├── 专业活动的基础(第一部分).pdf
+│   ├── 基础计算机的体系结构.pdf
+│   └── 课程实验室工作指南计算机技术的基础.pdf
+├── BrainComputerInterface
+│   ├── 脑机接口原理与实践.pdf
+│   └── 脑机接口导论.pdf
+├── DiscreteMathematics
+│   ├── FuzzySet
+│   │   ├── Book.pdf
+│   │   └── Note.pdf
+│   └── GraphTheory
+│       ├── Lection1.pdf
+│       ├── Lection2.pdf
+│       ├── Lection3.pdf
+│       ├── Lection4.pdf
+│       ├── Lection5.pdf
+│       ├── Lection6.pdf
+│       ├── Lection7.pdf
+│       ├── Lection8.pdf
+│       ├── Note.pdf
+│       └── 图论与网络流理论, 高随祥.pdf
+├── Informology
+│   ├── Lection1.pdf
+│   ├── Lection10.pdf
+│   ├── Lection2.pdf
+│   ├── Lection3.pdf
+│   ├── Lection4.pdf
+│   ├── Lection5.pdf
+│   ├── Lection6.pdf
+│   ├── Lection7.pdf
+│   ├── Lection8.pdf
+│   └── Lection9.pdf
+├── Mathematics
+│   ├── DifferentialAndIntegral
+│   │   ├── Типовик_модуль 3.pdf
+│   │   ├── 微积分学教程.第一卷.菲赫金哥尔茨.pdf
+│   │   ├── 微积分学教程.第三卷.菲赫金哥尔茨.pdf
+│   │   └── 微积分学教程.第二卷.菲赫金哥尔茨.pdf
+│   └── LinearAlgebraAndAnalyticGeometry
+│       ├── Lecture1.pdf
+│       ├── Lecture2.pdf
+│       ├── Lecture3.pdf
+│       ├── Lecture4.pdf
+│       ├── Lecture5.pdf
+│       ├── Lecture6.pdf
+│       ├── Lecture7.pdf
+│       ├── Lecture8.pdf
+│       ├── book.pdf
+│       └── exercise.pdf
+├── Programming
+│   ├── C++
+│   │   └── C++ Primer Plus 第6版 中文版.pdf
+│   └── Java
+│       ├── JAVA.pdf
+│       ├── JavaITMOPrgSpr21
+│       ├── JavaOOPBasicClass Design
+│       └── Java核心技术  卷1  基础知识  原书第10版.pdf
+├── README.md
+├── RussianLanguage
+│   ├── 50-русских-текстов.pdf
+│   ├── 俄语答案Vasilishina_T._Russkiy_yazik_osnovnoy_kurs_Metodichka.pdf
+│   ├── 俄语课本Balihina_T_Russkiy_yazik_osnovnoy_kurs_Grammatika.pdf
+│   └── 新编俄语语法.pdf
+├── SoftwareEngineering
+│   └── Лекции по ОПИ v1.4.0.pdf
+└── WebProgramming
+    ├── 1.1.pdf
+    ├── 1.2.pdf
+    ├── 1.3.pdf
+    ├── 2.1.pdf
+    ├── 3.1.pdf
+    ├── 4.1.pdf
+    ├── 6.1.pdf
+    ├── 6.2.pdf
+    ├── 6.3.pdf
+    └── 7.1.pdf
