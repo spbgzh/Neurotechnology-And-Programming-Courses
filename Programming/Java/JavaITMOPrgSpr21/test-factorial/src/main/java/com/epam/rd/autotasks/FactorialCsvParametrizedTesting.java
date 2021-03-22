@@ -8,17 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class FactorialCsvParametrizedTesting {
 
-    Factorial factorial = new Factorial();
+  Factorial factorial = new Factorial();
 
-    @ParameterizedTest
-    @CsvFileSource(resources = "/csvCases.csv")
-    void testFactorialCase(String input, String output){
-        String delimiter = ",";
-        String[] temp;
-        temp = input.split(delimiter);
-        assertEquals(factorial.factorial(temp[0]), temp[1]);
-    }
-    String testCases(){
-
-    }
+  @ParameterizedTest
+  @CsvFileSource(resources = "/csvCases.csv")
+  void testFactorialCase(String input, String output) {
+    assertEquals(output, factorial.factorial(input));
+  }
 }

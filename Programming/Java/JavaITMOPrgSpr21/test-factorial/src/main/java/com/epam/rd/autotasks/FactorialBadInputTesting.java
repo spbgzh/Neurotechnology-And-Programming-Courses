@@ -9,27 +9,27 @@ class FactorialBadInputTesting {
     Factorial factorial = new Factorial();
 
     @Test
-    void testNullInput()throws UnsupportedOperationException{
-        Throwable exception = assertThrows(UnsupportedOperationException.class,
+    void testNullInput()throws IllegalArgumentException{
+        Throwable exception = assertThrows(IllegalArgumentException.class,
                 ()->{factorial.factorial(null);} );
     }
 
 
     @Test
-    void testNegativeInput(){
-        Throwable exception = assertThrows(UnsupportedOperationException.class,
+    void testNegativeInput()throws IllegalArgumentException{
+        Throwable exception = assertThrows(IllegalArgumentException.class,
                 ()->{factorial.factorial("-1");} );
     }
 
     @Test
-    void testFractionalInput(){
-        Throwable exception = assertThrows(UnsupportedOperationException.class,
+    void testFractionalInput()throws IllegalArgumentException{
+        Throwable exception = assertThrows(IllegalArgumentException.class,
                 ()->{factorial.factorial("1.1");} );
     }
 
     @Test
-    void testNonDigitalInput(){
-        Throwable exception = assertThrows(UnsupportedOperationException.class,
+    void testNonDigitalInput()throws IllegalArgumentException{
+        Throwable exception = assertThrows(IllegalArgumentException.class,
                 ()->{factorial.factorial("null");} );
     }
 
