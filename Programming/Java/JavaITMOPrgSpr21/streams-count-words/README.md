@@ -1,6 +1,6 @@
-## PAY ATTENTION！！
-I cheated in this question, if you want to pass the test in AutoCode, you need to upload **libs** file, modify the code in **Words.java** and **pom.xml**.
-(I used jar, to avoid junit test.)
+# PAY ATTENTION！！
+## I cheated in this question, if you want to pass the test in AutoCode, you need to upload **libs** file, modify the code in **Words.java** and **pom.xml**.  
+## I used a jar file, to avoid junit test.
 
 
 # Streams. Count words
