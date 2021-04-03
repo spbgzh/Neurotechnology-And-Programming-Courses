@@ -1,0 +1,4 @@
+test5 12 bytes
+├─ some.txt 0 bytes
+├─ some1.txt 4 bytes
+└─ some2.txt 8 bytes

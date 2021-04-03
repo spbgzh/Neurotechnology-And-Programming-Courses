@@ -1,0 +1,12 @@
+test6 240 bytes
+├─ 1keULnM5 104 bytes
+│  ├─ 25LkoA.txt 8 bytes
+│  ├─ 9vt1w.txt 40 bytes
+│  ├─ g1Z.txt 40 bytes
+│  └─ pzLL.txt 16 bytes
+├─ bKIhF 104 bytes
+│  ├─ 3ox.txt 48 bytes
+│  ├─ l3p5.txt 48 bytes
+│  └─ mf0LS.txt 8 bytes
+└─ sHSbiCR 32 bytes
+   └─ lQn.txt 32 bytes
