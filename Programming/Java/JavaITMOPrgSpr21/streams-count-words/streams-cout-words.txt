@@ -1,0 +1,20 @@
+package com.efimchick.ifmo.streams.countwords;
+
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class Words {
+    public String countWords(List<String> lines) {
+        List<String> lines1 = Arrays.asList(lines.stream().collect(Collectors.joining(" ")).replaceAll("[^a-z^A-Z^а-я^А-Я^ ]", " ").split(" "));
+        final Stream<String> stream = lines1.stream().filter(el -> el.length() >= 4).map(String::toLowerCase);
+        final Map<String, Integer> mapka = stream.collect(Collectors.toMap(
+                i -> i,
+                i -> 1,
+                Integer::sum
+        ));
+        final Set<String> setka = lines1.stream().map(String::toLowerCase).collect(Collectors.toSet());
+        final Stream<String> stream2 = setka.stream().filter(el -> el.length() >= 4).map(String::toLowerCase).filter(el -> mapka.get(el) >= 10).sorted().sorted((a, b) -> mapka.get(b) - mapka.get(a));
+        return stream2.map(el -> el + " - " + mapka.get(el).toString()).collect(Collectors.joining("\n"));
+    }
+}
