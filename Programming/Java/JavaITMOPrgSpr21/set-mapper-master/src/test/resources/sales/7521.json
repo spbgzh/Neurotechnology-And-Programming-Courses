@@ -1,0 +1,23 @@
+{
+  "id" : 7521,
+  "fullName" : {
+    "firstName" : "JOHN",
+    "lastName" : "WARD",
+    "middleName" : "MARIA"
+  },
+  "position" : "SALESMAN",
+  "hired" : "1981-02-22",
+  "salary" : 1250.00000,
+  "manager" : {
+    "id" : 7698,
+    "fullName" : {
+      "firstName" : "JOHN",
+      "lastName" : "BLAKE",
+      "middleName" : "MARIA"
+    },
+    "position" : "MANAGER",
+    "hired" : "1981-05-01",
+    "salary" : 2850.00000,
+    "manager" : null
+  }
+}

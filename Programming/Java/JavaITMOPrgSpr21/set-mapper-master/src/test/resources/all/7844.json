@@ -1,0 +1,34 @@
+{
+  "id" : 7844,
+  "fullName" : {
+    "firstName" : "JOHN",
+    "lastName" : "TURNER",
+    "middleName" : "MARIA"
+  },
+  "position" : "SALESMAN",
+  "hired" : "1981-09-08",
+  "salary" : 1500.00000,
+  "manager" : {
+    "id" : 7698,
+    "fullName" : {
+      "firstName" : "JOHN",
+      "lastName" : "BLAKE",
+      "middleName" : "MARIA"
+    },
+    "position" : "MANAGER",
+    "hired" : "1981-05-01",
+    "salary" : 2850.00000,
+    "manager" : {
+      "id" : 7839,
+      "fullName" : {
+        "firstName" : "JOHN",
+        "lastName" : "KING",
+        "middleName" : "MARIA"
+      },
+      "position" : "PRESIDENT",
+      "hired" : "1981-11-17",
+      "salary" : 5000.00000,
+      "manager" : null
+    }
+  }
+}

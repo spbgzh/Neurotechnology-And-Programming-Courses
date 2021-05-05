@@ -1,0 +1,34 @@
+{
+  "id" : 7902,
+  "fullName" : {
+    "firstName" : "JOHN",
+    "lastName" : "FORD",
+    "middleName" : "MARIA"
+  },
+  "position" : "ANALYST",
+  "hired" : "1981-12-03",
+  "salary" : 3000.00000,
+  "manager" : {
+    "id" : 7566,
+    "fullName" : {
+      "firstName" : "JOHN",
+      "lastName" : "JONES",
+      "middleName" : "MARIA"
+    },
+    "position" : "MANAGER",
+    "hired" : "1981-04-02",
+    "salary" : 2975.00000,
+    "manager" : {
+      "id" : 7839,
+      "fullName" : {
+        "firstName" : "JOHN",
+        "lastName" : "KING",
+        "middleName" : "MARIA"
+      },
+      "position" : "PRESIDENT",
+      "hired" : "1981-11-17",
+      "salary" : 5000.00000,
+      "manager" : null
+    }
+  }
+}

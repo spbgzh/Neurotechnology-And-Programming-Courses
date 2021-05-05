@@ -1,0 +1,23 @@
+{
+  "id": 7900,
+  "fullName": {
+    "firstName": "JOHN",
+    "lastName": "JAMES",
+    "middleName": "MARIA"
+  },
+  "position": "CLERK",
+  "hired": "1981-12-03",
+  "salary": 950.00000,
+  "manager": {
+    "id": 7698,
+    "fullName": {
+      "firstName": "JOHN",
+      "lastName": "BLAKE",
+      "middleName": "MARIA"
+    },
+    "position": "MANAGER",
+    "hired": "1981-05-01",
+    "salary": 2850.00000,
+    "manager": null
+  }
+}
