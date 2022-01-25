@@ -1,0 +1,13 @@
+{
+  "id" : 7698,
+  "fullName" : {
+    "firstName" : "JOHN",
+    "lastName" : "BLAKE",
+    "middleName" : "MARIA"
+  },
+  "position" : "MANAGER",
+  "hired" : "1981-05-01",
+  "salary" : 2850.00000,
+  "managerId" : 7839,
+  "departmentId" : 30
+}

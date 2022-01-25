@@ -1,0 +1,68 @@
+[
+  {
+    "id": 7876,
+    "fullName": {
+      "firstName": "JOHN",
+      "lastName": "ADAMS",
+      "middleName": "MARIA"
+    },
+    "position": "CLERK",
+    "hired": "2087-07-13",
+    "salary": 1100.00000,
+    "manager": {
+      "id": 7788,
+      "fullName": {
+        "firstName": "JOHN",
+        "lastName": "SCOTT",
+        "middleName": "MARIA"
+      },
+      "position": "ANALYST",
+      "hired": "2087-07-13",
+      "salary": 3000.00000,
+      "manager": null,
+      "department": {
+        "id": 20,
+        "fullName": "RESEARCH",
+        "position": "DALLAS"
+      }
+    },
+    "department": {
+      "id": 20,
+      "fullName": "RESEARCH",
+      "position": "DALLAS"
+    }
+  },
+  {
+    "id": 7499,
+    "fullName": {
+      "firstName": "JOHN",
+      "lastName": "ALLEN",
+      "middleName": "MARIA"
+    },
+    "position": "SALESMAN",
+    "hired": "1981-02-20",
+    "salary": 1600.00000,
+    "manager": {
+      "id": 7698,
+      "fullName": {
+        "firstName": "JOHN",
+        "lastName": "BLAKE",
+        "middleName": "MARIA"
+      },
+      "position": "MANAGER",
+      "hired": "1981-05-01",
+      "salary": 2850.00000,
+      "manager": null,
+      "department": {
+        "id": 30,
+        "fullName": "SALES",
+        "position": "CHICAGO"
+      }
+    },
+    "department": {
+      "id": 30,
+      "fullName": "SALES",
+      "position": "CHICAGO"
+    }
+  }
+]

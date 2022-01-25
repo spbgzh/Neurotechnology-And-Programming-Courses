@@ -1,0 +1,13 @@
+{
+  "id" : 7499,
+  "fullName" : {
+    "firstName" : "JOHN",
+    "lastName" : "ALLEN",
+    "middleName" : "MARIA"
+  },
+  "position" : "SALESMAN",
+  "hired" : "1981-02-20",
+  "salary" : 1600.00000,
+  "managerId" : 7698,
+  "departmentId" : 30
+}

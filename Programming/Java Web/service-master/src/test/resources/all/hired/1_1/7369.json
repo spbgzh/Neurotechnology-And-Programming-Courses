@@ -1,0 +1,33 @@
+{
+  "id" : 7369,
+  "fullName" : {
+    "firstName" : "JOHN",
+    "lastName" : "SMITH",
+    "middleName" : "MARIA"
+  },
+  "position" : "CLERK",
+  "hired" : "1980-12-17",
+  "salary" : 800.00000,
+  "manager" : {
+    "id" : 7902,
+    "fullName" : {
+      "firstName" : "JOHN",
+      "lastName" : "FORD",
+      "middleName" : "MARIA"
+    },
+    "position" : "ANALYST",
+    "hired" : "1981-12-03",
+    "salary" : 3000.00000,
+    "manager" : null,
+    "department" : {
+      "id" : 20,
+      "name" : "RESEARCH",
+      "location" : "DALLAS"
+    }
+  },
+  "department" : {
+    "id" : 20,
+    "name" : "RESEARCH",
+    "location" : "DALLAS"
+  }
+}

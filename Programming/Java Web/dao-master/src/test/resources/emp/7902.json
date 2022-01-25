@@ -1,0 +1,13 @@
+{
+  "id" : 7902,
+  "fullName" : {
+    "firstName" : "JOHN",
+    "lastName" : "FORD",
+    "middleName" : "MARIA"
+  },
+  "position" : "ANALYST",
+  "hired" : "1981-12-03",
+  "salary" : 3000.00000,
+  "managerId" : 7566,
+  "departmentId" : 20
+}

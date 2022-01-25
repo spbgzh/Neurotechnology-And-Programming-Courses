@@ -1,0 +1,13 @@
+{
+  "id" : 7369,
+  "fullName" : {
+    "firstName" : "JOHN",
+    "lastName" : "SMITH",
+    "middleName" : "MARIA"
+  },
+  "position" : "CLERK",
+  "hired" : "1980-12-17",
+  "salary" : 800.00000,
+  "managerId" : 7902,
+  "departmentId" : 20
+}

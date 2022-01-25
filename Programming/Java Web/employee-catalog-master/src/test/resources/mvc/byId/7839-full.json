@@ -1,0 +1,13 @@
+{
+  "id": 7839,
+  "fullName": {
+    "firstName": "JOHN",
+    "lastName": "KING",
+    "middleName": "MARIA"
+  },
+  "position": "PRESIDENT",
+  "hired": "1981-11-17",
+  "salary": 5000.00000,
+  "manager": null,
+  "department": null
+}
