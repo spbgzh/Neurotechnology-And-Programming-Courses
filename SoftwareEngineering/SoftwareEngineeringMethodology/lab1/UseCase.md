@@ -40,7 +40,7 @@ Administrator:
 |  Website Management Case   | For administrator to modify content, optimize, add and delete functions |
 |   Read News Case                | Read traffic news      |
 |Advertisement Case |Show Commercial advertising.|   
-|Third party website Case｜To provide features and links to third-party websites|
+|Third party website Case|To provide features and links to third-party websites|
 
 ## BOM Portal Use Cases
 
