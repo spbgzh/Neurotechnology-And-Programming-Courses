@@ -11,7 +11,7 @@ Guest:
 * Get timetable of plane and train
 * Get information of parking places in our city
 * Read advertisement
-
+* Visit third party website
 User:
 
 * The second to the last functions of guest
@@ -38,8 +38,10 @@ Administrator:
 | Favorites Management Cases | Create and manage user's favorites(only for users or administrator) |
 |   Random user Use Cases    |            For Administrator to create test users            |
 |  Website Management Case   | For administrator to modify content, optimize, add and delete functions |
-|Read News|Read traffic news|
-|Advertisement block|Show ads.|
+|   Read News Case                | Read traffic news      |
+|Advertisement Case |Show Commercial advertising.|
+｜Third party website Case｜To provide features and links to third-party websites｜
+
 ## BOM Portal Use Cases
 
 |     Use Cases     |                            Login                             |
@@ -92,7 +94,7 @@ Administrator:
 | Brief Descriptions |            Administrators and modify the website             |
 |   Primary Actor    |                        Administrators                        |
 |   Preconditions    |             Have the privilege of administrators             |
-|     Basic Path     | Modify the informations showed on website(like news). Modify the appearance of website. Delete, add or optimize existing functions |
+|     Basic Path     | Modify the informations showed on website(like news or advertisements). Modify the appearance of website. Delete, add or optimize existing functions |
 |  Alternative Path  |                              -                               |
 |   Postconditions   |    Administrators can change the website as their wishes     |
 
@@ -105,7 +107,7 @@ Administrator:
 |  Alternative Path  |               View landmarks on the map with the mouse                               |
 |   Postconditions   |   Returns coordinates on a map or path between origin and destination   |
 
-|     Use Cases      |                      News                      |
+|     Use Cases      |                      News System                    |
 | :----------------: | :----------------------------------------------------------: |
 | Brief Descriptions |  Show currently traffic news|
 |   Primary Actor    |                        All actors                        |
@@ -114,15 +116,23 @@ Administrator:
 |  Alternative Path  |               Show some current news on index page                               |
 |   Postconditions   |   Enter news page, which is chosen  |
 
-|     Use Cases      |                      Advertisement                      |
+|     Use Cases      |                      Advertisement System                   |
 | :----------------: | :----------------------------------------------------------: |
-| Brief Descriptions |  Show advertisement |
+| Brief Descriptions |  Show commercial advertisement |
 |   Primary Actor    |                        All actors                        |
 |   Preconditions    |             -             |
 |     Basic Path     | Show on main page |
 |  Alternative Path  |               -                               |
 |   Postconditions   |   Click and enter advertisement   |
 
+|     Use Cases      |                      Third party website System                      |
+| :----------------: | :----------------------------------------------------------: |
+| Brief Descriptions |  Provide third-party functional interfaces for third-party websites such as Google, bus2bus |
+|   Primary Actor    |                        All actors                        |
+|   Preconditions    |             -             |
+|     Basic Path     | Display third-party ticketing sites and google search pages on the home page |
+|  Alternative Path  |               -                               |
+|   Postconditions   |   Redirect to third-party website   |  
 ## Use Cases
 
 ![Use Cases](./usecase.jpeg)
