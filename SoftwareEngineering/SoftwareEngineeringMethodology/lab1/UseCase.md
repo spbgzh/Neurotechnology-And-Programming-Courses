@@ -10,6 +10,7 @@ Guest:
 * Read the news about traffic
 * Get timetable of plane and train
 * Get information of parking places in our city
+* Read advertisement
 
 User:
 
@@ -22,8 +23,9 @@ Administrator:
 
 * Delete account of users
 * Create random users
-* Update all informations in website
+* Update all informations(includes news, posts, traffic jam, tickets) in website
 * All the functions of users and guest
+* Advertisement edit
 
 ## Description of Use Cases
 
@@ -36,7 +38,8 @@ Administrator:
 | Favorites Management Cases | Create and manage user's favorites(only for users or administrator) |
 |   Random user Use Cases    |            For Administrator to create test users            |
 |  Website Management Case   | For administrator to modify content, optimize, add and delete functions |
-
+|Read News|Read traffic news|
+|Advertisement block|Show ads.|
 ## BOM Portal Use Cases
 
 |     Use Cases     |                            Login                             |
@@ -70,7 +73,7 @@ Administrator:
 | :----------------: | :----------------------------------------------------------: |
 | Brief Descriptions | Basic and most important case of this site. Allow user to search the traffic informations they need in this city. |
 |   Primary Actor    |                Guest, user and administrator.                |
-|   Preconditions    |                      Access to Internet                      |
+|   Preconditions    |                      -                      |
 |     Basic Path     | Enter different block of this page to find the corresponding information. |
 |  Alternative Path  | Enter key word to search information(this function is supported by Google) |
 |   Postconditions   |     System return the information by operation of users      |
@@ -101,6 +104,24 @@ Administrator:
 |     Basic Path     | Enter your origin and destination and the map will show you the fastest route to your destination|
 |  Alternative Path  |               View landmarks on the map with the mouse                               |
 |   Postconditions   |   Returns coordinates on a map or path between origin and destination   |
+
+|     Use Cases      |                      News                      |
+| :----------------: | :----------------------------------------------------------: |
+| Brief Descriptions |  Show currently traffic news|
+|   Primary Actor    |                        All actors                        |
+|   Preconditions    |             -             |
+|     Basic Path     | Enter news block |
+|  Alternative Path  |               Show some current news on index page                               |
+|   Postconditions   |   Enter news page, which is chosen  |
+
+|     Use Cases      |                      Advertisement                      |
+| :----------------: | :----------------------------------------------------------: |
+| Brief Descriptions |  Show advertisement |
+|   Primary Actor    |                        All actors                        |
+|   Preconditions    |             -             |
+|     Basic Path     | Show on main page |
+|  Alternative Path  |               -                               |
+|   Postconditions   |   Click and enter advertisement   |
 
 ## Use Cases
 
