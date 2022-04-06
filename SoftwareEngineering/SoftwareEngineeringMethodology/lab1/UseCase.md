@@ -5,13 +5,15 @@
 Guest:
 
 * Register an account
-* Plan a route with different kinds of transportation, where we can see the time it spends
-* Read the rule of different kinds of transportation
 * Read the news about traffic
-* Get timetable of plane and train
-* Get information of parking places in our city
+* Different modes of transportation modules (excluding driver's own drive, which is another requirement). Each mode of transportation module should contain basic route planning, the time spent on the planned route, the general route map of the mode of transportation (such as a subway map, a bus route map), and the price of the fare (or other means of charging). Special functions can be added for different modes of transportation, for example, buses between cities can be added.
+* Information useful to drivers is available on the web. For example highway and parking lot information.
 * Read advertisement
+* The main page has direct access to the most popular and frequently used functions
 * Visit third party website
+* Read fare information (policy, fare composition, etc.)
+* Buy tickets
+
 User:
 
 * The second to the last functions of guest
@@ -29,18 +31,19 @@ Administrator:
 
 ## Description of Use Cases
 
-|            Name            |                         Description                          |
-| :------------------------: | :----------------------------------------------------------: |
-|      Login Use Cases       |       Provide users with the function of website login       |
-|    Register User Cases     |   Provide users with the function of website registration    |
-|    Management Use Cases    | Provide users and administrators with the function of managing accounts respectively |
-|    Searching Use Cases     | Basic functions of websites. Include search timetable of train and airplane, search informations about parking land in this city, the schedule, pay and route of public transportations, the traffic news. |
-| Favorites Management Cases | Create and manage user's favorites(only for users or administrator) |
-|   Random user Use Cases    |            For Administrator to create test users            |
-|  Website Management Case   | For administrator to modify content, optimize, add and delete functions |
-|   Read News Case                | Read traffic news      |
-|Advertisement Case |Show Commercial advertising.|   
-|Third party website Case|To provide features and links to third-party websites|
+|               Name               |                         Description                          |
+| :------------------------------: | :----------------------------------------------------------: |
+|         Login Use Cases          |       Provide users with the function of website login       |
+|       Register User Cases        |   Provide users with the function of website registration    |
+|       Management Use Cases       | Provide users and administrators with the function of managing accounts respectively |
+| Web Map And Navigation Use Cases | Basic functions of websites. Include search timetable of train and airplane, search informations about parking land in this city, the schedule, pay and route of public transportations and so on by enter different model. |
+|    Favorites Management Cases    | Create and manage user's favorites(only for users or administrator) |
+|      Random user Use Cases       |            For Administrator to create test users            |
+|     Website Management Case      | For administrator to modify content, optimize, add and delete functions |
+|          Read News Case          |                      Read traffic news                       |
+|        Advertisement Case        |                 Show Commercial advertising.                 |
+|         Buy Ticket Case          |       Buy tickets of different kinds of transportation       |
+|     Third party website Case     |    To provide features and links to third-party websites     |
 
 ## BOM Portal Use Cases
 
@@ -62,20 +65,20 @@ Administrator:
 | Alternative Path  |  Jump to login page or return a error while email was used   |
 |  Postconditions   | Post form, which is filled by guest. Check if his/her email was used earlier. If email is occupied, then return to register page and offer a tip about it. |
 
-|     Use Cases     |          System           Management                      |
-| :---------------: | :-------------------------------------------------: |
-| Brief Description | Allow user and administrators manage their accounts |
-|       Actor       |              Users and administrators               |
-|   Preconditions   |                    Already login                    |
-|    Basic Path     |                  The user modifies the content in the favorites, and modifies the user's email or password                   |
-| Alternative Path  |                             If you are an administrator account, you can delete other users' accounts and modify the content of the news                        |
-|  Postconditions   |                               After the modification is completed, return whether the modification is successful                      |
+|     Use Cases     |                 System           Management                  |
+| :---------------: | :----------------------------------------------------------: |
+| Brief Description |     Allow user and administrators manage their accounts      |
+|       Actor       |                   Users and administrators                   |
+|   Preconditions   |                        Already login                         |
+|    Basic Path     | The user modifies the content in the favorites, and modifies the user's email or password |
+| Alternative Path  | If you are an administrator account, you can delete other users' accounts and modify the content of the news |
+|  Postconditions   | After the modification is completed, return whether the modification is successful |
 
-|     Use Cases      |                          Information retrieval system                           |
+|     Use Cases      |                 Information retrieval system                 |
 | :----------------: | :----------------------------------------------------------: |
 | Brief Descriptions | Basic and most important case of this site. Allow user to search the traffic informations they need in this city. |
 |   Primary Actor    |                Guest, user and administrator.                |
-|   Preconditions    |                      -                      |
+|   Preconditions    |                              -                               |
 |     Basic Path     | Enter different block of this page to find the corresponding information. |
 |  Alternative Path  | Enter key word to search information(this function is supported by Google) |
 |   Postconditions   |     System return the information by operation of users      |
@@ -89,7 +92,7 @@ Administrator:
 |  Alternative Path  |                            -                            |
 |   Postconditions   |                   Like register cases                   |
 
-|     Use Cases      |                      Administrator Management                      |
+|     Use Cases      |                   Administrator Management                   |
 | :----------------: | :----------------------------------------------------------: |
 | Brief Descriptions |            Administrators and modify the website             |
 |   Primary Actor    |                        Administrators                        |
@@ -98,41 +101,50 @@ Administrator:
 |  Alternative Path  |                              -                               |
 |   Postconditions   |    Administrators can change the website as their wishes     |
 
-|     Use Cases      |                      Maps and Navigation Systems                      |
-| :----------------: | :----------------------------------------------------------: |
-| Brief Descriptions |            For map display and destination navigation             |
-|   Primary Actor    |                        All actors                        |
-|   Preconditions    |             -             |
-|     Basic Path     | Enter your origin and destination and the map will show you the fastest route to your destination|
-|  Alternative Path  |               View landmarks on the map with the mouse                               |
-|   Postconditions   |   Returns coordinates on a map or path between origin and destination   |
+|     Use Cases      |             Web Maps and Navigation Systems             |
+| :----------------: | :-----------------------------------------------------: |
+| Brief Descriptions |           Choose the model, which user wants.           |
+|   Primary Actor    |                       All actors                        |
+|   Preconditions    |                            -                            |
+|     Basic Path     | Choose different model and go to the corresponding page |
+|  Alternative Path  |          Choose popular functions on main page          |
+|   Postconditions   |               Returns corresponding page                |
 
-|     Use Cases      |                      News System                    |
-| :----------------: | :----------------------------------------------------------: |
-| Brief Descriptions |  Show currently traffic news|
-|   Primary Actor    |                        All actors                        |
-|   Preconditions    |             -             |
-|     Basic Path     | Enter news block |
-|  Alternative Path  |               Show some current news on index page                               |
-|   Postconditions   |   Enter news page, which is chosen  |
+|     Use Cases      |             News System              |
+| :----------------: | :----------------------------------: |
+| Brief Descriptions |     Show currently traffic news      |
+|   Primary Actor    |              All actors              |
+|   Preconditions    |                  -                   |
+|     Basic Path     |           Enter news block           |
+|  Alternative Path  | Show some current news on index page |
+|   Postconditions   |   Enter news page, which is chosen   |
 
-|     Use Cases      |                      Advertisement System                   |
-| :----------------: | :----------------------------------------------------------: |
-| Brief Descriptions |  Show commercial advertisement |
-|   Primary Actor    |                        All actors                        |
-|   Preconditions    |             -             |
-|     Basic Path     | Show on main page |
-|  Alternative Path  |               -                               |
-|   Postconditions   |   Click and enter advertisement   |
+|     Use Cases      |     Advertisement System      |
+| :----------------: | :---------------------------: |
+| Brief Descriptions | Show commercial advertisement |
+|   Primary Actor    |          All actors           |
+|   Preconditions    |               -               |
+|     Basic Path     |       Show on main page       |
+|  Alternative Path  |               -               |
+|   Postconditions   | Click and enter advertisement |
 
-|     Use Cases      |                      Third party website System                      |
+|     Use Cases      |                  Third party website System                  |
 | :----------------: | :----------------------------------------------------------: |
-| Brief Descriptions |  Provide third-party functional interfaces for third-party websites such as Google, bus2bus |
-|   Primary Actor    |                        All actors                        |
-|   Preconditions    |             -             |
+| Brief Descriptions | Provide third-party functional interfaces for third-party websites such as Google, bus2bus |
+|   Primary Actor    |                          All actors                          |
+|   Preconditions    |                              -                               |
 |     Basic Path     | Display third-party ticketing sites and google search pages on the home page |
-|  Alternative Path  |               -                               |
-|   Postconditions   |   Redirect to third-party website   |  
+|  Alternative Path  |                              -                               |
+|   Postconditions   |               Redirect to third-party website                |
+|     Use Cases      |                      But Tickrts                      |
+| :----------------: | :---------------------------------------------------: |
+| Brief Descriptions |            Buy tickets, which user wants.             |
+|   Primary Actor    |                User and administrator                 |
+|   Preconditions    |                           -                           |
+|     Basic Path     | Choose transportation and ticket, and then pay for it |
+|  Alternative Path  |                           -                           |
+|   Postconditions   |                    Returns ticket.                    |
+
 ## Use Cases
 
 ![Use Cases](./usecase.jpeg)
