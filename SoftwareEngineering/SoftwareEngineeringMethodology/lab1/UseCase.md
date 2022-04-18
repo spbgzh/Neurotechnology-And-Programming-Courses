@@ -147,4 +147,4 @@ Administrator:
 
 ## Use Cases
 
-![Use Cases](./usecase.jpeg)
+![Use Cases](./usecase.png)
