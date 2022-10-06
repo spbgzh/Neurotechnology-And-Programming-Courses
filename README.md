@@ -1,24 +1,25 @@
-# 神经技术与编程专业课程资料
-目前本科在读，将会持续更新[ITMO大学](https://cn.itmo.ru/cn/)软件工程专业神经技术与编程方向 (*Нейротехнологии и Программирование*)的专业资料
+# Neurotechnology and Programming Course Materials
+Currently in undergraduate study, and will continue to update the course materials of [ITMO University](https://cn.itmo.ru/cn/) software engineering major in **Neurotechnology And Programming** (*Нейротехнологии и Программирование*)
 
 
-![](https://img.shields.io/badge/wechat-Spbgzh-green)      	![](https://img.shields.io/badge/mail-spbgzh%40niuitmo.ru-blue)
 
-## 专业介绍
-该专业是软件工程与神经科学的交叉学科专业，
-是对具有开发和实施神经技术技能的程序员超出劳动力市场需求的回应。
+![](https://img.shields.io/badge/wechat-Spbgzh-green)      	![](https://img.shields.io/badge/mail-zjjhgzh%40gmail.com-blue)
 
-毕业生有以下几个学科需要学习：
+## Introduction to University Major
+This major is an interdisciplinary major of software engineering and neuroscience.   
+Is a response to the high demand for programmers with the skills to develop and implement neurotechnology.  
 
- 1. 信息系统的神经接口
- 2. 软件系统工程
- 3. 多媒体技术
- 4. 生物识别与神经技术
- 5. 神经技术与情感计算
+Graduates have the following subjects to study:  
 
-为此，学生将要学习：
- 1. 使用HTML5，CSS3，XML，XSL，ECMAScript，Ajax等；
- 2. 使用以下语言进行编程：Java，C / C ++，Python，JavaScript，PHP等；
- 3. 软件包Adobe Creative Suite，CorelDRAW，Sound Forge，3ds Max等；
- 4. 数据库技术Oracle数据库，MySQL，MongoDB，Apache Derby，Berkeley DB等；
- 5. 神经实验工具“Young Neurophysiologist-Engineer”，Open BCI，BioRadio人类生理学套件等。
+1. Neural interfaces for information systems  
+2. Software Systems Engineering  
+3. Multimedia technology  
+4. Biometrics and Neurotechnology  
+5. Neurotechnology and affective computing  
+
+To do this, students will learn the following techniques:
+1. Use HTML5, CSS3, XML, XSL, ECMAScript, Ajax, etc.
+2. Program in the following languages: Java, C/C++, Python, JavaScript, PHP, etc.
+3. Software packages Adobe Creative Suite, CorelDRAW, Sound Forge, 3ds Max, etc.
+4. Database technology Oracle database, MySQL, MongoDB, Apache Derby, Berkeley DB, etc.
+5. Neural experimental tools "Young Neurophysiologist-Engineer", Open BCI, BioRadio Human Physiology Suite, etc.
